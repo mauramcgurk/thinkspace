@@ -2,3 +2,35 @@
 
 font-family: 'Lato', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
+
+/*****EXAMPLES OF ICONS AS BULLETS
+ul.no_bullet {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+li.leaf {
+background: url('/images/leaf_icon.jpg') no-repeat left top;
+}
+
+li.leaf {
+background: url('/images/leaf_icon.jpg') no-repeat left top;
+height: 54px;
+padding-left: 44px;
+padding-top: 3px;
+}
+
+THIS IS THE ONE I WANT:
+<ul class="no_bullet">
+<li class="disc">List item: disc bullet</li>
+<li class="square">List item: square bullet</li>
+<li class="lower_greek">List item: lower greek bullet</li>
+<li class="leaf">List item: leaf image bullet</li>
+<li class="red_square">List item: red square image bullet</li>
+</ul>
+
+<img src="img/office-space-icon.png" alt="graphic of office building">
+<img src="img/business-support-icon.png" alt="graphic of trophy">
+<img src="img/recruting-icon.png" alt="graphic of three people">
+<img src="img/tech-icon.png" alt="graphic of code">
+*****/
