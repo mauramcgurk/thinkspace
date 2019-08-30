@@ -34,7 +34,7 @@ header img {
 
 nav {
   float:right;
-  padding: 50px 20px 10px 0px;
+  padding: 50px 10px 10px 0px;
 }
 
 nav ul li {
@@ -45,7 +45,8 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 18px;
-  color: f7f7f7;
+  color: #f7f7f7;
+  padding: 0 15px 0 15px;
 }
 
 font-family: 'Lato', sans-serif; for h1
