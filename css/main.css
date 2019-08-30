@@ -1,7 +1,55 @@
 /*****THINKSPACE*****/
 
-font-family: 'Lato', sans-serif;
-font-family: 'Roboto Condensed', sans-serif;
+/*****BASE STYLES*****/
+/*****
+charcoal #13172d
+white f7f7f7
+blue 60b5ff
+orange ffac6c
+*****/
+body {
+  background-color: #13172d;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #f7f7f7;
+}
+/*****GRID*****/
+.full-width {
+  width: 1200px;
+  margin: auto;
+}
+
+.half-width {
+  float:left;
+  width: 600px;
+}
+
+/*****HEADER*****/
+header {
+  height: 100px;
+}
+
+header img {
+  padding: 15px 0 10px 20px;
+}
+
+nav {
+  float:right;
+  padding: 50px 20px 10px 0px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  color: f7f7f7;
+}
+
+font-family: 'Lato', sans-serif; for h1
+
 
 /*****EXAMPLES OF ICONS AS BULLETS
 ul.no_bullet {
