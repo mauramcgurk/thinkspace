@@ -23,6 +23,11 @@ body {
   width: 600px;
 }
 
+.third-width {
+  float: left;
+  width: 400px;
+}
+
 /*****HEADER*****/
 header {
   height: 100px;
@@ -91,7 +96,58 @@ main h2 {
 
 #services {
   clear: both;
-  height: 400px;
+  height: 500px;
+  background-color: #ffac6c;
+  margin: 40px 15px 40px 110px;
+  padding: 25px 0 0 0;
+  width: 1200px;
+}
+
+#services-left.third-width img {
+  padding-left: 115px;
+  padding-right: 75px;
+}
+
+#services-center.third-width img {
+  padding-left: 115px;
+  padding-right: 75px;
+}
+
+#services-right.third-width img {
+  padding-left: 95px;
+  padding-right: 50px;
+}
+
+#services img {
+  padding: 15px 50px 30px 50px;
+  width: 150px;
+}
+
+/*****#services-left.third-width img {
+  padding-left: 0px;
+}
+*****/
+
+#services-left.third-width h3 {
+  padding-left: 135px;
+}
+
+#services-center.third-width h3 {
+  padding-left: 105px;
+}
+
+#services-right.third-width h3 {
+  padding-left: 90px;
+}
+
+#services h3 {
+  font-size: 24px;
+  /*****padding: 0 0 0 100px;*****/
+  margin-top: 5px;
+}
+
+#services p {
+  text-align: center;
 }
 
 /*****.no-bullet {
@@ -151,7 +207,8 @@ THIS IS THE ONE I WANT:
 <img src="img/tech-icon.png" alt="graphic of code">
 *****/
 
-#services img {
+/*****#services img {
   padding-left: 40px;
   width: 30px;
 }
+*****/
