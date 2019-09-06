@@ -94,9 +94,10 @@ main h2 {
   width: 445px;
 }
 
+/****SERVICES*****/
 #services {
   clear: both;
-  height: 500px;
+  height: 400px;
   background-color: #ffac6c;
   margin: 40px 15px 40px 110px;
   padding: 25px 0 0 0;
@@ -120,95 +121,87 @@ main h2 {
 
 #services img {
   padding: 15px 50px 30px 50px;
+  height: 150px;
   width: 150px;
 }
 
-/*****#services-left.third-width img {
-  padding-left: 0px;
-}
-*****/
-
 #services-left.third-width h3 {
-  padding-left: 135px;
+  padding-left: 115px;
 }
 
 #services-center.third-width h3 {
-  padding-left: 105px;
+  padding-left: 85px;
 }
 
 #services-right.third-width h3 {
-  padding-left: 90px;
+  padding-left: 70px;
 }
 
 #services h3 {
-  font-size: 24px;
-  /*****padding: 0 0 0 100px;*****/
-  margin-top: 5px;
+  font-size: 28px;
+  margin: 5px 0 25px 0;
+  text-transform: uppercase;
 }
 
 #services p {
+  font-size: 18px;
   text-align: center;
 }
 
-/*****.no-bullet {
-list-style-type: none;
-padding: 0px;
-margin: 0px;
+#services-right.third-width p {
+  padding-right: 45px;
 }
 
-.tech-icon {
-  background: url('../img/tech-icon-orange.png') no-repeat left top;
-  display: block;
-}
-*****/
-
-/*****ul {
-  list-style: none;
-  margin-left: 40px;
+/****LOCATIONS*****/
+#locations {
+  height: 250px;
+  background-color: #93cdff;
+  margin: 40px 15px 40px 110px;
+  padding: 25px 0 0 0;
+  width: 1200px;
 }
 
-li.tech-icon {
-  /*****height: 30px;*****/
-  /*****list-style-image: url('../img/tech-icon.png');
-  /*****width: 30px;*****/
-  /*****padding: 30px 0 0 20px;
-}*****/
-
-
-/*****EXAMPLES OF ICONS AS BULLETS -- DIDN'T WORK!
-ul.no_bullet {
-list-style-type: none;
-padding: 0;
-margin: 0;
-}
-li.leaf {
-background: url('/images/leaf_icon.jpg') no-repeat left top;
+#locations h2 {
+  text-align: center;
+  text-transform: uppercase;
 }
 
-li.leaf {
-background: url('/images/leaf_icon.jpg') no-repeat left top;
-height: 54px;
-padding-left: 44px;
-padding-top: 3px;
+#locations p {
+  font-size: 24px;
+  padding: 0 50px 0 50px;
+  text-align: center;
 }
 
-THIS IS THE ONE I WANT:
-<ul class="no_bullet">
-<li class="disc">List item: disc bullet</li>
-<li class="square">List item: square bullet</li>
-<li class="lower_greek">List item: lower greek bullet</li>
-<li class="leaf">List item: leaf image bullet</li>
-<li class="red_square">List item: red square image bullet</li>
-</ul>
+#locations-left-text p {
+  border-right: 2px solid #f7f7f7;
+}
 
-<img src="img/office-space-icon.png" alt="graphic of office building">
-<img src="img/business-support-icon.png" alt="graphic of trophy">
-<img src="img/recruting-icon.png" alt="graphic of three people">
-<img src="img/tech-icon.png" alt="graphic of code">
-*****/
+/*****TESTIMONIALS*****/
+#testimonials {
+  height: 600px;
+}
 
-/*****#services img {
-  padding-left: 40px;
-  width: 30px;
+/*****NEEDS WORK
+#testimonials.half-width p {
+  width: 550px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 *****/
+
+#testimonials-left-text {
+  width: 500px;
+  padding-left: 25px;
+  padding-right: 50px;
+}
+
+#testimonials-right-text {
+  width: 500px;
+  padding-left: 90px;
+  padding-right: 25px;
+}
+
+#testimonials-left-text p, #testimonials-right-text p {
+  padding: 25px 0 25px 0;
+  text-align: justify;
+}
