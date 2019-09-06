@@ -158,7 +158,8 @@ main h2 {
 /****LOCATIONS*****/
 #locations {
   height: 250px;
-  background-color: #93cdff;
+  /*****background-color: #93cdff;*****/
+  background-color: #a4d5ff;
   margin: 40px 15px 40px 110px;
   padding: 25px 0 0 0;
   width: 1200px;
@@ -227,24 +228,31 @@ main h2 {
 #contact {
   background-color: #ffac6c;
   clear: both;
-  height: 300px;
-  margin: 40px 15px 40px 110px;
-  width: 1200px;
+  height: 250px;
+  margin: 40px 200px 40px 200px;
+  padding: 35px 0 0 0;
+  width: 1000px;
 }
 
 #contact p {
   font-size: 22px;
-  padding: 25px 0 0 40px;
+  margin-top: 0px;
+  padding: 40px 0 0 95px;
   text-align: center;
-}
-
-#peter-contact-info {
-  height: 50px;
-  padding-top: 15px;
+  width: 400px;
 }
 
 #contact img {
   border-radius: 50%;
-  padding: 30px 100px 30px 100px;
-  width: 250px;
+  height: 200px;
+  /*****padding: 0 150px 0 150px;*****/
+  width: 200px;
+}
+
+/*****FOOTER*****/
+footer {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  padding-bottom: 15px;
+  text-align: center;
 }
