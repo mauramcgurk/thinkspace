@@ -4,7 +4,6 @@
 /*****
 charcoal #13172d
 white f7f7f7
-blue 60b5ff
 orange ffac6c
 *****/
 body {
@@ -155,33 +154,27 @@ main h2 {
   padding-right: 45px;
 }
 
-/****LOCATIONS*****/
-#locations {
-  height: 250px;
-  /*****background-color: #93cdff;*****/
-  background-color: #a4d5ff;
-  margin: 40px 15px 40px 110px;
-  padding: 25px 0 0 0;
-  width: 1200px;
+#locations img {
+  margin: 30px 0 40px 0;
+  padding-left: 75px;
+  width: 500px;
 }
 
 #locations h2 {
+  padding: 30px 0 15px 0;
   text-align: center;
   text-transform: uppercase;
 }
 
 #locations p {
-  font-size: 24px;
+  font-size: 20px;
   padding: 0 50px 0 50px;
   text-align: center;
 }
 
-#locations-left-text p {
-  border-right: 2px solid #f7f7f7;
-}
-
 /*****TESTIMONIALS*****/
 #testimonials {
+  clear:both;
   height: 350px;
 }
 
@@ -204,7 +197,6 @@ main h2 {
 #testimonials-left-text p, #testimonials-right-text p {
   font-size: 18px;
   margin: 0 0 5px 0px;
-  /*****padding: 10px 0 10px 0;*****/
   text-align: justify;
 }
 
@@ -237,7 +229,7 @@ main h2 {
 #contact p {
   font-size: 22px;
   margin-top: 0px;
-  padding: 40px 0 0 95px;
+  padding: 30px 0 0 95px;
   text-align: center;
   width: 400px;
 }
@@ -245,7 +237,7 @@ main h2 {
 #contact img {
   border-radius: 50%;
   height: 200px;
-  /*****padding: 0 150px 0 150px;*****/
+  padding: 10px 0 0 10px;
   width: 200px;
 }
 
