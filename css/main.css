@@ -178,16 +178,12 @@ main h2 {
 
 /*****TESTIMONIALS*****/
 #testimonials {
-  height: 600px;
+  height: 400px;
 }
 
-/*****NEEDS WORK
-#testimonials.half-width p {
-  width: 550px;
-  padding-left: 25px;
-  padding-right: 25px;
+#testimonials h2 {
+  padding-top: 20px;
 }
-*****/
 
 #testimonials-left-text {
   width: 500px;
@@ -202,6 +198,14 @@ main h2 {
 }
 
 #testimonials-left-text p, #testimonials-right-text p {
-  padding: 25px 0 25px 0;
+  font-size: 18px;
+  margin: 0 0 16px 0;
+  padding: 10px 0 25px 0;
   text-align: justify;
+}
+
+#testimonials span {
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 25px;
 }
