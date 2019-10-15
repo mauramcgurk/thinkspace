@@ -1,17 +1,32 @@
-/*****THINKSPACE*****/
+/***** THINKSPACE *****/
 
-/*****BASE STYLES*****/
-/*****
+/***** COLORS
 charcoal #13172d
 white f7f7f7
 orange ffac6c
 *****/
+
+/***** BASE STYLES *****/
+
 body {
   background-color: #13172d;
   font-family: 'Roboto Condensed', sans-serif;
   color: #f7f7f7;
+  margin:auto;
+  width: 1400px;
 }
-/*****GRID*****/
+
+h2 {
+  padding-left: 50px;
+}
+
+#hero, #about, #services, #locations, #testimonials, #contact, #footer {
+  margin-left: 100px;
+  width: 1200px;
+}
+
+/***** GRID *****/
+
 .full-width {
   width: 1200px;
   margin: auto;
@@ -27,7 +42,8 @@ body {
   width: 400px;
 }
 
-/*****HEADER*****/
+/***** HEADER *****/
+
 header {
   height: 100px;
 }
@@ -49,24 +65,30 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-size: 18px;
-  color: #f7f7f7;
+  color: #e36300;
   padding: 0 15px 0 15px;
 }
 
-/*****MAIN*****/
+/***** MAIN *****/
+
+#hero {
+  height: 560px;
+}
+
 #hero-image {
-  background: url('../img/table-surface.jpg');
+  background: url('../img/table-surface-hero.png');
   background-size: cover;
-  height: 600px;
+  height: 440px;
   margin-bottom: 45px;
 }
 
 main h1 {
   color: #e36300;
+  /*****color: #f4720d;*****/
   font-family: 'Lato', sans-serif;
   font-size: 50px;
   line-height: 150%;
-  padding: 460px 10px 10px 10px;
+  padding: 440px 10px 10px 10px;
   text-align: center;
   text-transform: uppercase;
   word-spacing: 15px;
@@ -76,8 +98,9 @@ main h2 {
   color: #f7f7f7;
   font-size: 30px;
   font-weight: bold;
-  padding: 0 0 0 20px;
 }
+
+/***** ABOUT *****/
 
 #about {
   height: 350px;
@@ -85,7 +108,7 @@ main h2 {
 
 #about p {
   font-size: 20px;
-  padding: 0 0 10px 20px;
+  padding: 0 0 10px 50px;
   width: 625px;
 }
 
@@ -94,29 +117,23 @@ main h2 {
   width: 445px;
 }
 
-/****SERVICES*****/
+/**** SERVICES *****/
+
 #services {
   clear: both;
   height: 400px;
   background-color: #ffac6c;
-  margin: 40px 15px 40px 110px;
-  padding: 25px 0 0 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding-top: 25px;
   width: 1200px;
 }
 
-#services-left.third-width img {
-  padding-left: 115px;
-  padding-right: 75px;
-}
-
-#services-center.third-width img {
-  padding-left: 115px;
-  padding-right: 75px;
-}
-
-#services-right.third-width img {
-  padding-left: 95px;
-  padding-right: 50px;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 #services img {
@@ -125,22 +142,11 @@ main h2 {
   width: 150px;
 }
 
-#services-left.third-width h3 {
-  padding-left: 115px;
-}
-
-#services-center.third-width h3 {
-  padding-left: 85px;
-}
-
-#services-right.third-width h3 {
-  padding-left: 70px;
-}
-
 #services h3 {
   font-size: 28px;
   font-weight: bold;
   margin: 5px 0 25px 0;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -149,8 +155,10 @@ main h2 {
   text-align: center;
 }
 
-#services-right.third-width p {
-  padding-right: 45px;
+/***** LOCATIONS *****/
+
+#locations {
+  margin-top: 50px;
 }
 
 #locations img {
@@ -160,7 +168,8 @@ main h2 {
 }
 
 #locations h2 {
-  padding: 30px 0 15px 0;
+  padding-left: 0;
+  padding-top: 35px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -171,7 +180,8 @@ main h2 {
   text-align: center;
 }
 
-/*****TESTIMONIALS*****/
+/***** TESTIMONIALS *****/
+
 #testimonials {
   clear:both;
   height: 350px;
@@ -215,7 +225,8 @@ main h2 {
   text-indent: 15px;
 }
 
-/*****CONTACT*****/
+/***** CONTACT *****/
+
 #contact {
   background-color: #ffac6c;
   clear: both;
@@ -240,7 +251,7 @@ main h2 {
   width: 200px;
 }
 
-/*****FOOTER*****/
+/***** FOOTER *****/
 footer {
   font-family: 'Lato', sans-serif;
   font-size: 18px;
